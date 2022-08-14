@@ -43,3 +43,24 @@ df = fun(soup)
 
 bot = telegram.Bot(token=os.getenv('TOKEN'))
 
+df_old = pd.read_csv('/Users/ilakozin/PycharmProjects/Beatport_top100_bot/Beatport_top100_releases.csv')
+
+# df_old = df_old.drop(labels=[1,2,3], axis=0)
+df_old.columns = (['Unnamed: 0', 'position_old', 'title', 'lable', 'link'])
+
+new_releases_df = df.merge(df_old, how='left', on=['title', 'lable', 'link'], indicator=True) \
+    .query("_merge == 'left_only'") \
+    .drop(['_merge', 'Unnamed: 0', 'position_old'], axis=1)
+
+n = 0
+
+for index, row in new_releases_df.iterrows():
+    t = row['title']
+    l = row['lable']
+    p = row['position']
+    li = 'https://www.beatport.com' + row['link']
+    n = n + 1
+    s = (f"Название:        {t}\nЛейбл:          {l}\nМесто в Топ100:    {p}\nСсылка: {li}\n\n\n")
+    bot.send_message(chat_id= os.getenv('CHAT_ID'), text=s)
+if n > 0:
+    df.to_csv('/Users/ilakozin/PycharmProjects/Beatport_top100_bot/Beatport_top100_releases.csv')
