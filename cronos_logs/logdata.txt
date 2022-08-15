@@ -1,44 +1,11 @@
-INFO:root:TEST_REPORT_START_BUILDING 2022-08-14 18:51:43.173806
-ERROR:root:name 'test_report' is not defined
-Traceback (most recent call last):
-  File "/Users/ilakozin/PycharmProjects/Beatport_top100_bot/main.py", line 76, in <module>
-    test_report()
-NameError: name 'test_report' is not defined
-INFO:root:TEST_REPORT_START_BUILDING 2022-08-14 18:51:57.198045
-ERROR:root:name 'test_report' is not defined
-Traceback (most recent call last):
-  File "/Users/ilakozin/PycharmProjects/Beatport_top100_bot/main.py", line 76, in <module>
-    test_report()
-NameError: name 'test_report' is not defined
-INFO:root:TEST_REPORT_START_BUILDING 2022-08-14 18:53:44.967083
-ERROR:root:name 'test_report' is not defined
-Traceback (most recent call last):
-  File "/Users/ilakozin/PycharmProjects/Beatport_top100_bot/main.py", line 76, in <module>
-    test_report()
-NameError: name 'test_report' is not defined
-INFO:root:TEST_REPORT_START_BUILDING 2022-08-14 18:55:38.445147
-ERROR:root:name 'test_report' is not defined
-Traceback (most recent call last):
-  File "/Users/ilakozin/PycharmProjects/Beatport_top100_bot/main.py", line 76, in <module>
-    test_report()
-NameError: name 'test_report' is not defined
-INFO:root:TEST_REPORT_START_BUILDING 2022-08-14 18:56:00.293930
-ERROR:root:name 'test_report' is not defined
-Traceback (most recent call last):
-  File "/Users/ilakozin/PycharmProjects/Beatport_top100_bot/main.py", line 76, in <module>
-    test_report()
-NameError: name 'test_report' is not defined
-INFO:root:TEST_REPORT_START_BUILDING 2022-08-14 18:56:26.431444
-ERROR:root:name 'test_report' is not defined
-Traceback (most recent call last):
-  File "/Users/ilakozin/PycharmProjects/Beatport_top100_bot/main.py", line 76, in <module>
-    test_report()
-NameError: name 'test_report' is not defined
-INFO:root:TEST_REPORT_START_BUILDING 2022-08-14 19:00:41.356425
-ERROR:root:name 'test_report' is not defined
-Traceback (most recent call last):
-  File "/Users/ilakozin/PycharmProjects/Beatport_top100_bot/main.py", line 76, in <module>
-    test_report()
-NameError: name 'test_report' is not defined
-INFO:root:TEST_REPORT_START_BUILDING 2022-08-14 19:02:29.305939
+
+INFO:root:TEST_REPORT_START_BUILDING 2022-08-15 13:03:02.685758
+INFO:root:TEST_REPORT_SENT
+INFO:root:TEST_REPORT_START_BUILDING 2022-08-15 13:29:05.917329
+INFO:root:TEST_REPORT_SENT
+INFO:root:TEST_REPORT_START_BUILDING 2022-08-15 13:42:37.716884
+INFO:root:TEST_REPORT_SENT
+INFO:root:TEST_REPORT_START_BUILDING 2022-08-15 13:44:03.164995
+INFO:root:TEST_REPORT_SENT
+INFO:root:TEST_REPORT_START_BUILDING 2022-08-15 14:00:01.214694
 INFO:root:TEST_REPORT_SENT
