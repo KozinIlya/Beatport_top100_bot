@@ -50,7 +50,6 @@ def cronos(chat=None):
 
     bot = telegram.Bot(token=os.getenv('TOKEN'))
     df_old = pd.read_csv('/Users/ilakozin/PycharmProjects/Beatport_top100_bot/Beatport_top100_releases.csv')
-    df_old = df_old.drop(labels=[1,2,3], axis=0)
     df_old.columns = (['Unnamed: 0', 'position_old', 'title', 'lable', 'link'])
 
     new_releases_df = df.merge(df_old, how='left', on=['title', 'lable', 'link'], indicator=True) \
