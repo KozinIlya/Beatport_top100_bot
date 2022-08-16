@@ -14,7 +14,6 @@ dir_pass = '/Users/ilakozin/PycharmProjects/Beatport_top100_bot/cronos_logs'
 url = 'https://www.beatport.com/top-100-releases'
 request = requests.get(url)
 soup = BeautifulSoup(request.text, 'html.parser')
-
 dir_pass = '/Users/ilakozin/PycharmProjects/Beatport_top100_bot/cronos_logs'
 
 def cronos(chat=None):
